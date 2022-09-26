@@ -1,0 +1,19 @@
+{
+    "authors": [
+        {
+            "name": "Luis Gómez Melgarejo",
+            "email": "luis.gomelg@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "ConsoleWeather\\": "src/" 
+        }
+    },
+    "require": {
+        "sameer-shelavale/php-countries-array": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    }
+}

@@ -41,6 +41,13 @@ class RequestHandler
 
     /**
      * Set the API URL Endpoint
+     * 
+     * @param string $url
+     * @param string $options
+     * @param string $city
+     * @param string $metric
+     * 
+     * @return void
      */
     private function setGetUrl($url, $options = null, $city = null, $metric = null)
     {
@@ -66,6 +73,9 @@ class RequestHandler
     /**
      * Request maker
      * 
+     * @param string $city
+     * @param string $country
+     * 
      * @return string City Code API Response
      */
     private function filterCity($cities, $country)
@@ -89,6 +99,9 @@ class RequestHandler
 
     /**
      * Return the API Response to print on the screen
+     * 
+     * @param array $data
+     * @param string $scale
      * 
      * @return string City Code API Response
      */

@@ -11,6 +11,13 @@ use DateTime;
  * @author     Luis Gómez Melgarejo <luis.gomelg@gmail.com>
  */
 class ResponseHandler {
+    /**
+     * Print the response of the Forecast Weather Mode
+     * 
+     * @param array $data
+     * 
+     * @return string $response
+     */
     public function filterForecastWeatherData($data)
     {
         $response = '';
@@ -33,6 +40,13 @@ class ResponseHandler {
         return $response;
     }
 
+    /**
+     * Print the response of the Current Weather Mode
+     * 
+     * @param array $data
+     * 
+     * @return string $response
+     */
     public function filterCurrentWeatherData($data, $scale)
     {
         $response = '';

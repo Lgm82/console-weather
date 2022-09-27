@@ -10,6 +10,13 @@ namespace ConsoleWeather;
  */
 class Curl
 {
+    /**
+     * Perform a cURL request
+     * 
+     * @param string $url
+     * 
+     * @return string $result
+     */
     public function request($url)
     {
         $ch = curl_init();

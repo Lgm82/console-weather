@@ -11,3 +11,9 @@ Download the files and run composer install.
 ```
 php index.php [current|forecast] [city,countryCode] [--days=1|5] [--units=metric|imperial]
 ```
+
+# Help
+
+```
+php index.php --help
+```
